@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JS Quiz App</title>
+		<!-- CSS File Link -->
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<div class="container" id="box">
+				<h2 id="question"></h2>
+				<div class="row">
+					<input
+						class="options"
+						id="option1"
+						type="radio"
+						value="a"
+						name="option"
+					/>
+					<label for="option1"></label>
+				</div>
+				<div class="row">
+					<input
+						class="options"
+						id="option2"
+						type="radio"
+						value="b"
+						name="option"
+					/>
+					<label for="option2"></label>
+				</div>
+				<div class="row">
+					<input
+						class="options"
+						id="option3"
+						type="radio"
+						value="c"
+						name="option"
+					/>
+					<label for="option3"></label>
+				</div>
+				<div class="row">
+					<input
+						class="options"
+						id="option4"
+						type="radio"
+						value="d"
+						name="option"
+					/>
+					<label for="option4"></label>
+				</div>
+				<button class="btn" id="button">Next</button>
+			</div>
+		</main>
+		<!-- Sweet Alert CDN -->
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+		<!-- JS File Link -->
+		<script src="app.js"></script>
+	</body>
+</html>
