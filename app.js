@@ -149,21 +149,21 @@ const endQuiz = () => {
 	if (right > 4) {
 		Swal.fire({
 			title: `You got ${Math.round((right / total) * 100)}%`,
-			text: `🥳 Congratulations you gain full marks ${total} out of ${right}`,
+			text: `🥳 Congratulations you gain full marks ${right} out of ${total}`,
 			icon: "success",
 		});
-		window.open(
-			"https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiYpuiwhPWGAxV8VqQEHXHHAGUQPAgI"
-		);
+		setInterval(() => {
+			location.reload();
+		}, 5000);
 	} else {
 		Swal.fire({
 			title: `You got ${Math.round((right / total) * 100)}%`,
 			text: `😟 Sorry you gain ${right} out of ${total}`,
 			icon: "error",
 		});
-		window.open(
-			"https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiYpuiwhPWGAxV8VqQEHXHHAGUQPAgI"
-		);
+		setInterval(() => {
+			location.reload();
+		}, 5000);
 	}
 };
 

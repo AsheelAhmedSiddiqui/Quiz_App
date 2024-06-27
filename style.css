@@ -1,5 +1,5 @@
 /* Starting CSS */
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 * {
 	padding: 0;
@@ -9,65 +9,68 @@
 
 body {
 	font-family: "Rubik", sans-serif;
-    background-color: #071952;
-    /* color: #fff; */
+	background-color: #071952;
+	/* color: #fff; */
 }
 
-h2{
-    margin-bottom: 10px;
-    font-size: 1.8rem;
+h2 {
+	margin-bottom: 2.2rem;
+	font-size: 1.8rem;
 }
 
 /* body styling */
 main {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 
 .container {
-    width: 50%;
-    background-color: #37B7C3;
-    margin: 0 auto;
-    padding: 40px 50px;
-    border-radius: 20px;
+	width: 60%;
+	background-color: #37b7c3;
+	margin: 0 auto;
+	padding: 40px 50px;
+	border-radius: 20px;
+}
+
+.rows-box {
+	display: grid;
+	gap: 1.4rem;
 }
 
 .row {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 20px 20px;
-    width: 100%;
-    font-size: 1.3rem;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 20px 20px;
+	width: 100%;
+	font-size: 1.3rem;
+	background-color: rgba(12, 52, 40, 0.122);
+	border-radius: 10px;
 }
 
 .row input[type="radio"],
-.row label{
-    cursor: pointer;
+.row label {
+	cursor: pointer;
+}
+
+.row label {
+	width: 100%;
 }
 
 .btn {
-    width: 100%;
-    padding: 20px;
-    background-color: #EBF4F6;
-    color: 071952;
-    font-weight: 600;
-    border: none;
-    margin-top: 10px;
-    font-size: 1.3rem;
-    cursor: pointer;
-    border-radius: 20px;
-}
-
-#box ul {
-    list-style: none;
-    font-size: 1.4rem;
-    text-align: center;
-    margin: 20px;
-
+	width: 100%;
+	padding: 20px;
+	background-color: #ebf4f6;
+	color: 071952;
+	font-weight: 600;
+	border: none;
+	margin-top: 25px;
+	font-size: 1.3rem;
+	cursor: pointer;
+	border-radius: 20px;
 }
 
 /* End CSS */
